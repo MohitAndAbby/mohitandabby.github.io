@@ -500,10 +500,14 @@ details summary {
 }
 
 details summary::before {
-    content: "+ ";
+    content: "+ click to expand:";
     font-weight: bold;
+    font-size: 1rem;
+    color: blue;
 }
 
 details[open] summary::before {
     content: "− ";
+    color: blue;
+    font-size: 1rem;
 }
