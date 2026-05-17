@@ -495,8 +495,6 @@ figcaption {
 details summary {
     cursor: pointer;
     list-style: none;
-    font-size: 2rem;
-    padding-top: 1rem;
 }
 
 details summary::before {
@@ -507,7 +505,7 @@ details summary::before {
 }
 
 details[open] summary::before {
-    content: "− ";
+    content: "- click to collapse:";
     color: blue;
     font-size: 1rem;
 }
